@@ -6,6 +6,51 @@
 
 body {
   margin: 0;
-  background-color: lightgray;
+  background-color: rgb(149, 2, 36);
   font-family: sans-serif;
+  animation: infinite;
+  animation-name: link;
+  animation-duration: 3s;
+}
+@keyframes link {
+  from {background-color: rgb(149, 2, 36);}
+  to {background-color:crimson;}
+}
+h3 {
+  color: crimson;
+  background-color: white;
+  width: 150px;
+}
+
+.information {
+  color: white;
+  background-color: red;
+  width: 300px;
+}
+
+#rechts {
+  display: inline-block;
+  float: right;
+  margin-left: auto;
+  margin-right: 80px;
+
+}
+h1 {
+  color: white;
+  margin-left: 500px;
+  margin-right: auto;
+}
+section {
+  color: white;
+  margin-left: 500px;
+  margin-right: auto;
+}
+#source {
+  margin-left: auto;
+  margin-right: 80px;
+}
+
+#links {
+  display: inline-block;
+  float: left;
 }
