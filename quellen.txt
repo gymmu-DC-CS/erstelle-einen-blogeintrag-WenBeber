@@ -1,0 +1,9 @@
+Suchen 
+Animation loop, animation loop reverse -> Ich wollte, dass der Farbwechsel nicht am Ende
+        zur Ursprungsfarbe springt, sondern sich die Animation umdreht. Der Command heisst
+        "Animation-direction: alternate", ich habe ihn auf developer.mozilla.org gefunden.
+CSS Link verschieben, CSS Text verschieben -> Ich musste den Quellentext unter dem Bild 
+        verschieben, worauf mir verschiedene Möglichkeiten dafür angezeigt wurden. Am Ende
+        ging es am besten mit "display: inline-block" und "float: right".
+Mit KI habe ich nicht gearbeitet, da ich immer zu unpräzise Antworten bekomme, wenn ich 
+nicht mal richtig weiss nach was für einer Art Command ich suche.

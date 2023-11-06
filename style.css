@@ -8,9 +8,10 @@ body {
   margin: 0;
   background-color: rgb(149, 2, 36);
   font-family: sans-serif;
-  animation: infinite;
+  animation-iteration-count: infinite;
   animation-name: link;
   animation-duration: 3s;
+  animation-direction: alternate
 }
 @keyframes link {
   from {background-color: rgb(149, 2, 36);}
@@ -53,4 +54,10 @@ section {
 #links {
   display: inline-block;
   float: left;
+}
+#ytlink {
+  font-size: large;
+  background-color: red;
+  color: white
+  
 }
